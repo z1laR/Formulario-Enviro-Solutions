@@ -82,7 +82,7 @@ $captcha = '';
 /*function post_captcha($user_response) {
     $fields_string = '';
     $fields = array(
-        'secret' => '6LdOi60UAAAAACmwaV1AplS_fr9ku1K-hBllNGFQ',
+        'secret' => 'mi-clave-secreta',
         'response' => $user_response
     );
     foreach($fields as $key=>$value)
@@ -781,7 +781,7 @@ if($error == '')
         $mail->Host       = 'smtpout.secureserver.net';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'contacto@omarmancilla.tech';
-        $mail->Password   = '=dbfP!o3nM';
+        $mail->Password   = '**********';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
     
